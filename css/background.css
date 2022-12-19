@@ -1,0 +1,18 @@
+body {
+  background-color: gold;
+}
+
+.container {
+  width: 1000px;
+  height: 400px;
+  background-color: pink;
+  background-image: url('./../images/css.jpg');
+  /* 요소 박스보다 큰 이미지를 다룰 때는 background-size: 100% 100%;로 꽉 맞게 이미지 조정하기 */
+  /* 가로 비율 유지하면서 온전하게 보고 싶을 때는 background-size: contain; */
+  /* 반복 이미지 멈추고 싶으면 background-repeat: no-repeat;  */
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0; */
+  background: pink url('./../images/css.jpg') no-repeat 50% 0 / contain;
+
+}
